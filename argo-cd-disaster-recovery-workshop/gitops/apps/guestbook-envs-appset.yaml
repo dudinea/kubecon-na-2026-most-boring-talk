@@ -17,6 +17,9 @@ spec:
   template:
     metadata:
       name: guestbook-{{.env}}
+      # Deleting the app also deletes everything it deployed.
+      finalizers:
+        - resources-finalizer.argocd.argoproj.io
     spec:
       project: default
       source:
