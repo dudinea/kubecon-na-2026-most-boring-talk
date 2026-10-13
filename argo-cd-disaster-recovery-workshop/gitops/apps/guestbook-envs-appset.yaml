@@ -13,6 +13,7 @@ spec:
         elements:
           - env: dev
           - env: prod
+          - env: prod
   template:
     metadata:
       name: guestbook-{{.env}}
