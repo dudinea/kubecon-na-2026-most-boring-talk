@@ -30,6 +30,16 @@
       "extensions": [
         "redhat.vscode-yaml",
         "ms-kubernetes-tools.vscode-kubernetes-tools"
+      ],
+      "settings": {
+        "workbench.editorAssociations": {
+          "*.md": "vscode.markdown.preview.editor"
+        }
+      }
+    },
+    "codespaces": {
+      "openFiles": [
+        "docs/01-clickops.md"
       ]
     }
   }
